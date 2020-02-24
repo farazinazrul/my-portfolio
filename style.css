@@ -34,10 +34,35 @@ section{
     border-radius: 8px;
     color: white;
     font-weight: 800;
-
 }
 .dream-area{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    height: 50%;
+    border-radius: 5px;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#exp-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, salmon, orange);
+    border-image-slice: 1;
+}
+#exp-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+} 
+footer p{
+    text-align: center;
+    color: red;
+    font-size: 12PX;
 }
